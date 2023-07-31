@@ -1,0 +1,17 @@
+<div class="parent_listfriend" style="height: 100%; width: 100%">
+    <div class="iconfriend">
+        <img src="https://static.thenounproject.com/png/545083-200.png" >
+    </div>
+    <div *ngFor="let friendship of friendList">
+      <p>
+        <button class = "chatwith" (click)="chatWith(friendship)">
+            <span class="text">
+                {{friendship.friendEmail}}
+            </span>
+            <span>
+                Chat
+            </span>          
+        </button>
+      </p>
+    </div>
+</div>

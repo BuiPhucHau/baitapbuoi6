@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "chat-web-23a": {
+      "hosting": {
+        "ChatApp": [
+          "chat-web-23a"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "chat-web-23a"
+  }
+}

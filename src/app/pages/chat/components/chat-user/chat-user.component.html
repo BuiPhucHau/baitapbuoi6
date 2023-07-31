@@ -1,0 +1,14 @@
+<div id = "info-panel">
+    <div class = container_logout_addfr>
+        <button id = "logout" (click)="userService.logout()">Logout</button>
+        <img (click)="addFriend()" src="https://static.vecteezy.com/system/resources/previews/012/791/163/original/add-friends-icon-free-vector.jpg" > 
+    </div>
+    <div class ="container_avatar">
+        <img id = "avatar" [src]="user?.avatarUrl??''" >
+    </div>
+    <div class = "container_user">
+        <div id = "id">{{user?.id??''}}</div>
+        <div id = "name">{{user?.name??''}}</div>
+        <div id = "email">{{user?.email??''}}</div>
+    </div>   
+</div>

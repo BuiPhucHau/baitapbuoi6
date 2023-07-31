@@ -1,0 +1,109 @@
+#info-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;   
+}
+
+.container_logout_addfr{
+  display: flex;
+  height: 20%;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.container_avatar{
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+
+}
+
+.container_user{
+  height: 20%;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: 'Saira', sans-serif;
+  #id {
+    display: none;
+  }
+  #name {
+    font-size: 25px;
+    height: 33px;
+  }
+  #email {
+    font-size: 20px;
+  }
+}
+
+#avatar {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+img {
+  height: 50px; 
+  width: 50px; 
+  border-radius: 20%;
+  margin-right: 20px;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  transition: all 235ms ease-in-out;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  cursor: pointer;
+}
+img:hover  {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+img:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+
+#logout {
+  align-self: center;
+  background-color: #fff;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  color: #41403e;
+  cursor: pointer;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  padding: .75rem;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  touch-action: manipulation;
+}
+#logout:hover  {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+#logout:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+

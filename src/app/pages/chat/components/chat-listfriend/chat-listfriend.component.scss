@@ -1,0 +1,41 @@
+.parent_listfriend {
+    grid-template-rows: auto 1fr auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+}
+
+.chatwith {
+    width: 300px;
+    height: 40px;
+  align-items: center;
+  background-color: #fee6e3;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+}
+
+
+.chatwith:hover {
+    background-color: #080808;
+    color: #fff;
+  }
+  
+  @media (min-width: 768px) {
+    .chatwith {
+      font-size: 1.125rem;
+      padding: 1rem 2rem;
+    }
+  }

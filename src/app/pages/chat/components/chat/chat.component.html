@@ -1,0 +1,22 @@
+<div id="parent">
+    <div class ="container1" style="background-color: #d1c3b1; color: white">
+        <div class = "userinfo">
+            <app-chat-user [user]="(userService.chatUser|async)"></app-chat-user>
+        </div>
+    </div>
+
+    <div class = "container2" style="background-color: #e2d9cb" >
+        <div class = "friendlist">
+            <app-chat-listfriend></app-chat-listfriend>
+        </div>
+    </div>  
+
+    <div class = "container3" style="background-color: #d1d1d1">
+        <div class = "container_chatbox" >
+            <app-chat-box [_friendship]="friendship"></app-chat-box>
+        </div>
+        <div class = "container_type" style="background-color: antiquewhite; ">
+            <app-chat-control [friendship]="friendship"></app-chat-control>
+        </div>
+    </div>
+</div>
